@@ -1,61 +1,99 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    display: grid;
-    grid-template-rows: 7 auto;
-    width: 1440px;
-    margin: auto;
-    border: 3px solid black;
+  display: grid;
+  grid-template-rows: 7 auto;
+  width: 1440px;
+  margin: auto;
+  border: 3px solid black;
+}
+/*#region "First row - Above the fold"*/
+/*TODO - correct px to % or em's*/
+nav {
+  width: auto;
+  height: 108px;
+  display: inline-flex;
+  flex-direction: row;
 }
 
-nav {
-    width: auto;
-    height: 108px;
-    display: inline-flex;
-    flex-direction: row;
-}
 .logo {
-    margin-top: 38px;
-    margin-left: 116px;
-    width: 186px;
-    height: 32px;
-    margin-right: 225px;
+  margin-top: 38px;
+  margin-left: 116px;
+  width: 186px;
+  height: 32px;
+  margin-right: 225px;
 }
 
 .nav-text {
-    display: inline-flex;
-    margin-top: 44px;
-    width: 387px;
-    justify-content: space-between;
-    margin-right: 148px;
-}
-.nav-buttons{
-    display: inline-flex;
-    margin-top: 35px;
+  display: inline-flex;
+  margin-top: 44px;
+  width: 387px;
+  justify-content: space-between;
+  margin-right: 148px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 18px;
 }
 
+.nav-buttons {
+  display: inline-flex;
+  margin-top: 35px;
+}
+
+/*log and demo are the buttons in navigation row*/
 .log {
-    width: 96px;
-    height: 42px;
-    border: 1px solid #0688FA;
-    border-radius: 5px;
-    
-    background-color: white;
-    font-size: 18px;
-    color: #0688FA;
-    margin-right: 13px;
+  width: 96px;
+  height: 42px;
+  border: 1px solid #0688fa;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 18px;
+  color: #0688fa;
+  margin-right: 13px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
 }
 
 .demo {
-    width: 151px;
-    height: 42px;
-    background: #0688FA; 
-    border-radius: 5px;
-    border: none;
-    color: white;
-    font-size: 18px;
-    margin-right: 118px;
+  width: 151px;
+  height: 42px;
+  background: #0688fa;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-right: 118px;
+}
+/*the picture*/
+.van-gogh {
+  margin-left: 116px;
+  margin-top: 60px;
+}
+/*The two colums of text - TODO - change to display column?*/
+.header-text {
+  display: inline-flex;
+  font-family: Source Sans Pro;
+  color: #002240;
+}
+
+h1 {
+  width: 498px;
+  margin-left: 116px;
+  margin-top: 61px;
+  float: left;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 62px;
+}
+
+h5 {
+  width: 590px;
+  margin-left: 118px;
+  margin-top: 67px;
+  float: right;
+  font-size: 18px;
+  line-height: 32px;
 }
