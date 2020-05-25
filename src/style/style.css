@@ -205,3 +205,75 @@ nav {
 }
 
 /*#endregion*/
+
+/*#region Third Row "Timeline*/
+
+.timeline-title {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #002240;
+  margin-top: 64px;
+}
+
+.blue-rectangle {
+  width: 1205px;
+  height: 879px;
+  margin-left: 117px;
+  margin-top: 64px;
+  background-color: #eff8ff;
+  border-radius: 5px;
+  margin-bottom: 77px;
+  display: grid;
+  grid-template-rows: 5;
+}
+
+.line {
+  margin-left: 264px;
+  position: absolute;
+}
+
+.timeline-row1 {
+  display: inline-flex;
+  margin-top: 110px;
+}
+
+.date {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  color: #0688fa;
+  margin-left: 119px;
+}
+
+.envelope {
+  width: 80px;
+  height: 80px;
+  margin-left: 55px;
+  z-index: 3;
+  margin-top: -20px;
+}
+
+.timeline-description {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
+  /* or 131% */
+  color: #002240;
+  margin-left: 45px;
+}
+
+.timeline-row2,
+.timeline-row3,
+.timeline-row4,
+.timeline-row5 {
+  display: inline-flex;
+}
+
+/*#endregion*/
