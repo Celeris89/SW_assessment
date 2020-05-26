@@ -5,10 +5,11 @@
 
 body {
   display: grid;
-  grid-template-rows: 7 auto;
+  /* grid-template-rows: 8 auto; */
   width: 1440px;
   margin: auto;
   border: 3px solid black;
+  font-family: Source Sans Pro;
 }
 /*#region "First row - Above the fold"*/
 /*TODO - correct px to % or em's*/
@@ -451,4 +452,45 @@ nav {
   text-align: center;
   color: #ffffff;
 }
+/*#endregion*/
+
+/*#region 7th row "About us"*/
+
+.bottom-logo {
+  /* position: absolute; */
+  margin-top: 95px;
+  margin-left: 116px;
+}
+.bottom-about {
+  column-count: 4;
+  margin-bottom: 52px;
+  margin-left: 490px;
+  height: 400px;
+  margin-top: -50px;
+  width: fit-content;
+}
+
+.bottom-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 42px;
+  /* or 233% */
+  color: #002240;
+}
+
+.column1 {
+  height: 260px;
+  margin-right: 41px;
+}
+
+.column2 {
+  height: 254px;
+}
+.column3 {
+  height: 260px;
+}
+.column4 {
+  margin-left: -40px;
+}
+
 /*#endregion*/
