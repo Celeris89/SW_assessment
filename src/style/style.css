@@ -3,49 +3,65 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1440px) {
+  .nav-text {
+    display: none;
+  }
+  .nav-buttons {
+    display: none;
+  }
+}
+
 body {
   display: grid;
-  /* grid-template-rows: 8 auto; */
   width: 1440px;
   margin: auto;
   border: 3px solid black;
   font-family: Source Sans Pro;
+  font-size: 18px;
 }
 /*#region "First row - Above the fold"*/
-/*TODO - correct px to % or em's*/
-header {
-  grid-row: 1;
-  height: 1100px;
-}
+
 nav {
-  width: auto;
-  height: 108px;
+  width: 1440px;
   display: inline-flex;
   flex-direction: row;
 }
 
 .logo {
-  margin-top: 38px;
-  margin-left: 116px;
-  width: 186px;
-  height: 32px;
-  margin-right: 225px;
+  margin-top: 3%;
+  margin-left: 7%;
+  width: 15%;
+  height: 5%;
+  margin-right: 13%;
 }
 
 .nav-text {
-  display: inline-flex;
+  display: flex;
   margin-top: 44px;
-  width: 387px;
-  justify-content: space-between;
   margin-right: 148px;
-  font-family: "Source Sans Pro";
   font-weight: bold;
-  font-size: 18px;
 }
-.nav1:hover {
+
+.nav1 {
+  width: 190px;
+}
+.nav2 {
+  width: 130px;
+}
+
+.nav1:hover,
+.nav2:hover,
+.nav3:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+.nav1:active,
+.nav2:active,
+.nav3:active {
+  transform: translateY(10px);
+}
+
 .nav-buttons {
   display: inline-flex;
   margin-top: 35px;
@@ -63,6 +79,15 @@ nav {
   margin-right: 13px;
   font-family: "Source Sans Pro";
   font-weight: bold;
+}
+.demo:hover,
+.log:hover {
+  cursor: pointer;
+  background-color: darkseagreen;
+}
+.demo:active,
+.log:active {
+  transform: translateX(5px);
 }
 
 .demo {
@@ -85,127 +110,123 @@ nav {
   display: inline-flex;
   font-family: Source Sans Pro;
   color: #002240;
+  margin-bottom: 7%;
 }
 
 .header-title {
-  width: 498px;
-  margin-left: 116px;
-  margin-top: 61px;
-  float: left;
+  width: 30%; /*498*/
+  margin-left: 8%; /*116*/
+  margin-top: 3%; /*61*/
   font-weight: bold;
   font-size: 58px;
-  line-height: 62px;
+  /* line-height: 62px; */
 }
 
 .header-smalltext {
-  width: 590px;
-  margin-left: 118px;
-  margin-top: 67px;
-  float: right;
+  width: 38%;
+  margin-left: 10%;
+  margin-top: 3%;
   font-size: 18px;
-  line-height: 32px;
 }
 /*#endregion*/
 
 /*#region "Second row - Mission"*/
 .mission {
-  width: 1440px;
-  height: 787px;
-  grid-row: 2;
+  width: inherit;
   display: grid;
   grid-template-rows: 3;
 }
 
 .mission-title {
   grid-row: 1;
-  margin-top: 80px;
-  font-family: Source Sans Pro;
+  margin-top: 5%;
   font-weight: bold;
   font-size: 58px;
-  line-height: 62px;
-  /* identical to box height, or 107% */
   text-align: center;
   letter-spacing: -0.01em;
   color: #002240;
 }
 
 .mission-subtitle {
-  margin-top: 27px;
-  font-family: Source Sans Pro;
+  margin-top: 3%;
   font-size: 21px;
-  line-height: 38px;
-  /* or 181% */
   text-align: center;
   letter-spacing: 0.01em;
   font-feature-settings: "kern" off;
   color: #537089;
-  margin-bottom: 53px;
+  margin-bottom: 5%;
 }
 
 .mission-main {
   grid-row: 2;
-  display: inline-flexbox;
-  column-count: 3;
-  flex-direction: row;
-  margin-left: 118px;
-  margin-bottom: 47px;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-bottom: 9%;
+  margin-right: 10%;
 }
+.mission-column {
+  flex: 25%;
+  flex-direction: row;
+}
+@media screen and (max-width: 320px) {
+  .mission-column {
+    flex-direction: column;
+  }
+}
+
 .mission-picture {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 18px;
+  margin-bottom: 3%;
+  height: 40%;
+  width: 15%;
+  margin-right: 0;
 }
 
 .mission-main-title {
-  font-family: Source Sans Pro;
-  font-style: normal;
   font-weight: bold;
   font-size: 21px;
-  line-height: 34px;
-  /* or 162% */
   color: #002240;
-  margin-bottom: 5px;
+  margin-bottom: 3%;
 }
 
 .mission-smallText {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 32px;
-  /* or 178% */
+  font-weight: 400;
   color: #537089;
-  width: 354px;
+  width: 90%;
+  margin-bottom: -13%;
 }
 
 .mission-bottom-text {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: normal;
   font-size: 21px;
-  line-height: 38px;
-  /* or 181% */
-  text-align: center;
+  font-weight: bold;
   color: #002240;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 }
 
 .mission-button {
-  width: 198px;
-  height: 59px;
-  margin-left: 621px;
-  margin-top: 40px;
+  width: 15%;
+  padding: 1.5%;
+  margin-left: 40%;
+  margin-top: 3%;
   background: #0688fa;
-  mix-blend-mode: normal;
   border-radius: 5px;
   border: none;
-  font-family: Source Sans Pro;
   font-weight: bold;
   font-size: 18px;
-  line-height: 23px;
-  align-items: center;
   text-align: center;
   color: white;
-  margin-bottom: 70px;
+  margin-bottom: 8%;
+}
+
+@media screen and (max-width: 320px) {
+  #button {
+    width: 30%;
+  }
 }
 
 /*#endregion*/
