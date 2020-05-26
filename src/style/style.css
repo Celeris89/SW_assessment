@@ -371,6 +371,7 @@ nav {
   margin-left: 152px;
   margin-right: 152px;
   column-count: 2;
+  margin-bottom: 113px;
 }
 
 .logo1 {
@@ -393,4 +394,61 @@ nav {
   margin-left: 115px;
 }
 
+/*#endregion*/
+
+/*#region 6th row "The future"*/
+.The-future {
+  background: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-desktop/bg.png");
+  background-repeat: no-repeat;
+  background-size: 1313.82px 398.53px;
+  background-position: 25% 50%;
+}
+.future-title {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 58px */
+  text-align: center;
+  color: white;
+  margin-top: 156px;
+}
+
+.future-button1 {
+  width: 272px;
+  height: 62px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  /* Shadow / Button */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border: none;
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 160px;
+  color: #002240;
+  margin-top: 40px;
+  margin-left: 437px;
+  margin-right: 29px;
+}
+
+.future-button2 {
+  width: 272px;
+  height: 62px;
+  right: 430px;
+  margin-top: 40px;
+  border: 2px solid #ffffff;
+  background: #329dfa;
+  border-radius: 5px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
 /*#endregion*/
