@@ -281,10 +281,10 @@ nav {
 .offices {
   height: 595px;
 }
-.red{
-    z-index: -1;
-    position: absolute;
-    bottom: -1430px;
+.red {
+  z-index: -1;
+  position: absolute;
+  bottom: -1565px;
 }
 
 .offices-title {
@@ -344,6 +344,53 @@ nav {
   /* or 178% */
   text-align: center;
   color: #002240;
+}
+
+/*#endregion*/
+
+/*#region 5th row "Investors*/
+.investors-title {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 62px;
+  /* identical to box height, or 107% */
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #002240;
+}
+
+.investors-backgroung {
+  position: absolute;
+  margin-top: -130px;
+  z-index: -1;
+}
+
+.investor-boxes {
+  margin-top: 67px;
+  margin-left: 152px;
+  margin-right: 152px;
+  column-count: 2;
+}
+
+.logo1 {
+  margin-top: 95px;
+  margin-left: 89px;
+}
+
+.logo2 {
+  margin-top: 115px;
+  margin-left: 151px;
+}
+
+.logo3 {
+  margin-top: 60px;
+  margin-left: 128px;
+}
+
+.logo4 {
+  margin-top: 68px;
+  margin-left: 115px;
 }
 
 /*#endregion*/
