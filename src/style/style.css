@@ -42,7 +42,10 @@ nav {
   font-weight: bold;
   font-size: 18px;
 }
-
+.nav1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 .nav-buttons {
   display: inline-flex;
   margin-top: 35px;
@@ -457,10 +460,10 @@ nav {
 /*#region 7th row "About us"*/
 
 .bottom-logo {
-  /* position: absolute; */
   margin-top: 95px;
   margin-left: 116px;
 }
+
 .bottom-about {
   column-count: 4;
   margin-bottom: 52px;
@@ -479,8 +482,9 @@ nav {
 }
 
 .column1 {
-  height: 260px;
+  height: 280px;
   margin-right: 41px;
+  display: block;
 }
 
 .column2 {
@@ -493,4 +497,43 @@ nav {
   margin-left: -40px;
 }
 
+/*#endregion*/
+
+/*#region "Footer*/
+footer {
+  background-color: #f4f4f4;
+  width: 1440px;
+}
+.footer-text {
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 19px;
+  width: inherit;
+}
+.privacy {
+  margin-right: 30px;
+  margin-left: 100px;
+}
+.copyrights {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  line-height: 21px;
+  /* or 117% */
+  color: #002240;
+  margin-left: 100px;
+}
+
+.social-icons {
+  margin-left: 880px;
+  margin-right: 117px;
+  width: 20%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.footer-image {
+  width: 1440px;
+  margin-top: 36px;
+}
 /*#endregion*/
