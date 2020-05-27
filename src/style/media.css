@@ -61,14 +61,14 @@
     width: 100%;
     margin-left: 0;
   }
-  #van-gogh {
+  /* #van-gogh {
     background-image: image-set(
       "C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/hero-img.jpg"
-    );
-    /* height: 268px;
+    ); */
+  /* height: 268px;
         width: 296px; */
-  }
 }
+
 /*#endregion*/
 
 /*#region "Second row"*/
@@ -210,5 +210,48 @@
 /*#endregion*/
 
 /*#region 4th row*/
+
+@media screen and (max-width: 770px) {
+  #Offices {
+    height: 423px;
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/testi\ bg.png");
+  }
+
+  #offices-title {
+    font-size: 32px;
+  }
+  #box {
+    width: 271px;
+    height: 199px;
+  }
+  #offices-box-title {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  #office-box-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #offices-image {
+    width: 56px;
+    height: 56px;
+    margin-left: 40%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #Offices {
+    height: 583px;
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/Vector\ 19.png");
+  }
+
+  #offices-title {
+    font-size: 28px;
+  }
+  #offices-boxes {
+    flex-direction: column;
+  }
+}
 
 /*#endregion*/
