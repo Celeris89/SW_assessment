@@ -73,92 +73,142 @@
 
 /*#region "Second row"*/
 @media screen and (max-width: 770px) {
-    #mission-subtitle{
-        margin-right: 25%;
-        font-size: 16px;
-        width: 55%;
-    }
-    #mission-picture{
-        width: 56px;
-        height: 56px;
-    }
-    #mission-title{
-        font-size: 32px;
-    }
+  #mission-subtitle {
+    margin-right: 25%;
+    font-size: 16px;
+    width: 55%;
+  }
+  #mission-picture {
+    width: 56px;
+    height: 56px;
+  }
+  #mission-title {
+    font-size: 32px;
+  }
 
-     #mission-main {
-        font-size: 16px;
-        margin-left: 8%;
-        margin-right: 5%;
-        width: 85%;
-    }
-    
-#mission-main-title{
+  #mission-main {
     font-size: 16px;
-}
-#mission-smallText{
+    margin-left: 8%;
+    margin-right: 5%;
+    width: 85%;
+  }
+
+  #mission-main-title {
     font-size: 16px;
-}
-#mission-bottom-text{
+  }
+  #mission-smallText {
+    font-size: 16px;
+  }
+  #mission-bottom-text {
     font-size: 16px;
     width: 50%;
     margin-left: 25%;
     margin-bottom: 5%;
     text-align: center;
-}
+  }
 
-#mission-button {
+  #mission-button {
     width: 20%;
     font-size: 16px;
-  } 
-
-
-@media screen and (max-width: 320px) {
-  #mission-main {
-    flex-direction: column;
   }
 
-  #mission-title{
-    font-size: 32px;
-    text-align: left;
-    margin-left: 8%;
-    margin-top: 15%;
-}
-#mission-subtitle{
-    font-size: 16px;
-    width: 90%;
-    text-align: left;
-    float: left;
-    margin-bottom: 15%;
-}
-#mission-column{
-    margin-bottom: 20%;
-    margin-left: 5%;
+  @media screen and (max-width: 320px) {
+    #mission-main {
+      flex-direction: column;
+    }
 
-}  
+    #mission-title {
+      font-size: 32px;
+      text-align: left;
+      margin-left: 8%;
+      margin-top: 15%;
+    }
+    #mission-subtitle {
+      font-size: 16px;
+      width: 90%;
+      text-align: left;
+      float: left;
+      margin-bottom: 15%;
+    }
+    #mission-column {
+      margin-bottom: 20%;
+      margin-left: 5%;
+    }
 
-#mission-bottom-text{
-    font-size: 16px;
-    width: 80%;
-    margin-left: 12%;
-    margin-bottom: 5%;
-    text-align: left;
-}
+    #mission-bottom-text {
+      font-size: 16px;
+      width: 80%;
+      margin-left: 12%;
+      margin-bottom: 5%;
+      text-align: left;
+    }
 
-#mission-button {
-    width: 85%;
-    margin-left: 8%;
-    padding: 5%;
-    font-size: 16px;
+    #mission-button {
+      width: 85%;
+      margin-left: 8%;
+      padding: 5%;
+      font-size: 16px;
+    }
+  }
+  /*#endregion*/
+
+  /*#region 3rd row*/
+  @media screen and (max-width: 770px) {
+    #timeline-title {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    #date {
+      font-size: 16px;
+      margin-left: 19%;
+    }
+    #timeline-description {
+      font-size: 16px;
+      margin-left: 3%;
+      margin-top: -1%;
+      margin-right: 6%;
+    }
+    #envelope {
+      width: 56px;
+      height: 56px;
+      margin-left: 4%;
+      margin-top: -2%;
+    }
+    #blue-rectangle {
+      width: 630px;
+      height: 732px;
+      margin-left: 9%;
+    }
+    #line {
+      height: 732px;
+      margin-left: 202px;
+    }
   }
 
-
-
-
-@media screen and (max-width: 320px) {
- 
+  @media screen and (max-width: 320px) {
+    #timeline-title {
+      font-size: 28px;
+    }
+    #blue-rectangle {
+      width: 320px;
+      height: 915px;
+      margin-left: 0;
+    }
+    #line {
+      height: 915px;
+      margin-left: 110px;
+    }
+    #date {
+      margin-left: 10%;
+      margin-right: 3%;
+    }
+    #timeline-description {
+      margin-right: 5%;
+    }
   }
-  
+}
+/*#endregion*/
 
+/*#region 4th row*/
 
 /*#endregion*/

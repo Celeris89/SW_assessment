@@ -233,29 +233,30 @@ nav {
 /*#endregion*/
 
 /*#region Third Row "Timeline*/
+.timeline{
+  width: inherit;
+}
 
 .timeline-title {
-  font-family: Source Sans Pro;
-  font-style: normal;
   font-weight: bold;
   font-size: 58px;
   line-height: 62px;
   text-align: center;
   letter-spacing: -0.01em;
   color: #002240;
-  margin-top: 64px;
+  margin-top: 7%;
 }
 
 .blue-rectangle {
-  width: 1205px;
+  width: 90%;
   height: 879px;
-  margin-left: 117px;
-  margin-top: 64px;
+  margin-left: 5%;
+  margin-top: 10%;
   background-color: #eff8ff;
   border-radius: 5px;
-  margin-bottom: 77px;
+  margin-bottom: 13%;
   display: grid;
-  grid-template-rows: 5;
+  grid-row: 5;
 }
 
 .line {
@@ -265,16 +266,15 @@ nav {
 
 .timeline-row1 {
   display: inline-flex;
-  margin-top: 110px;
+  margin-top: 15%;
 }
 
 .date {
-  font-family: Source Sans Pro;
   font-weight: bold;
   font-size: 26px;
   line-height: 34px;
   color: #0688fa;
-  margin-left: 119px;
+  margin-left: 9%;
 }
 
 .envelope {
@@ -286,11 +286,9 @@ nav {
 }
 
 .timeline-description {
-  font-family: Source Sans Pro;
   font-weight: 600;
   font-size: 26px;
   line-height: 34px;
-  /* or 131% */
   color: #002240;
   margin-left: 45px;
 }
@@ -304,8 +302,9 @@ nav {
 /*#endregion*/
 
 /*#region 4th row, "Offices"*/
-.offices {
-  height: 595px;
+.Offices {
+  /* height: 595px; */
+  width: inherit;
 }
 .red {
   z-index: -1;
@@ -375,6 +374,10 @@ nav {
 /*#endregion*/
 
 /*#region 5th row "Investors*/
+.Investors{
+  width: inherit;
+}
+
 .investors-title {
   font-family: Source Sans Pro;
   font-weight: bold;
@@ -428,6 +431,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 1313.82px 398.53px;
   background-position: 25% 50%;
+  width: inherit;
 }
 .future-title {
   font-family: Source Sans Pro;
@@ -480,7 +484,9 @@ nav {
 /*#endregion*/
 
 /*#region 7th row "About us"*/
-
+.Bottom{
+ width: inherit;
+}
 .bottom-logo {
   margin-top: 95px;
   margin-left: 116px;
@@ -524,7 +530,7 @@ nav {
 /*#region "Footer*/
 footer {
   background-color: #f4f4f4;
-  width: 1440px;
+  width: inherit;
 }
 .footer-text {
   display: inline-flex;
