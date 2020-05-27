@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* 
@@ -32,7 +33,7 @@ nav {
 
 .logo {
   margin-top: 3%;
-  margin-left: 7%;
+  margin-left: 10%;
   width: 15%;
   height: 5%;
   margin-right: 13%;
@@ -109,7 +110,7 @@ nav {
   margin-left: 10%;
   margin-top: 5%;
 }
-/*The two colums of text - TODO - change to display column?*/
+
 .header-text {
   display: flex;
   flex-direction: row;
@@ -120,19 +121,19 @@ nav {
 
 .header-title {
   width: auto; /*498*/
-  margin-left: 8%; /*116*/
+  margin-left: 10%; /*116*/
   margin-top: 3%; /*61*/
   font-weight: bold;
   font-size: 58px;
-  /* line-height: 62px; */
 }
 
 .header-smalltext {
-  width: auto;
-  margin-left: 5%;
+  width: 100%;
+  margin-left: 7%;
   margin-top: 3%;
   font-size: 18px;
-  margin-right: 10%;
+  margin-right: 9%;
+  line-height: 178%;
 }
 /*#endregion*/
 
