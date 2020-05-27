@@ -374,9 +374,6 @@
     width: 103.13px;
     height: 17.95px;
     margin-left: 8%;
-    /*   
-left: 62px;
-top: 51.52px; */
   }
   #bottom-about {
     margin-top: 11%;
@@ -455,6 +452,72 @@ top: 51.52px; */
   #bottom-row1 {
     font-size: 16px;
     line-height: 18px;
+  }
+}
+
+/*#endregion*/
+
+/*#region "Footer"*/
+@media screen and (max-width: 770px) {
+  #footer {
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/footer\ -\ waves.png");
+    height: 231px;
+  }
+  #social-icons {
+    margin-left: 377.6px;
+    width: 150px;
+    margin-right: 5%;
+  }
+  #social {
+    width: 28.12px;
+    height: 28.12px;
+  }
+  #privacy {
+    font-size: 16px;
+    margin-left: 67px;
+  }
+  #terms {
+    font-size: 16px;
+  }
+  #copyrights {
+    font-size: 14px;
+    margin-left: 8%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #footer {
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/footer\ -\ waves.png");
+    height: 318px;
+  }
+  #social {
+    width: 26px;
+    height: 26px;
+  }
+  #footer-text {
+    display: grid;
+    grid-row: 4;
+  }
+  #social-icons {
+    margin-left: 33%;
+    grid-row: 1;
+    width: 110px;
+    margin-bottom: 8%;
+  }
+  #privacy {
+    margin-left: 135px;
+    grid-row: 2;
+    margin-bottom: 6%;
+  }
+  #terms {
+    margin-left: 139px;
+    grid-row: 3;
+    margin-bottom: 13%;
+  }
+  #copyrights {
+    font-size: 14px;
+    margin-left: 10%;
+    grid-row: 4;
   }
 }
 

@@ -464,6 +464,13 @@ nav {
   text-align: center;
   color: #ffffff;
 }
+
+.future-button1:hover,
+.future-button2:hover{
+  cursor: pointer;
+  background-color: lightslategray;
+
+}
 /*#endregion*/
 
 /*#region 7th row "About us"*/
@@ -512,37 +519,34 @@ nav {
 footer {
   background-color: #f4f4f4;
   width: inherit;
+  background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-desktop/footer\ -\ waves.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 332px;
 }
 .footer-text {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  margin-top: 60px;
-  margin-bottom: 19px;
-  width: inherit;
+  margin-top: 5%;
+  margin-bottom: 1%;
 }
 .privacy {
   margin-right: 30px;
   margin-left: 100px;
 }
 .copyrights {
-  font-family: Source Sans Pro;
-  font-size: 18px;
   line-height: 21px;
-  /* or 117% */
   color: #002240;
-  margin-left: 100px;
+  margin-left: 6.5%;
 }
 
 .social-icons {
   margin-left: 880px;
-  margin-right: 117px;
-  width: 20%;
+  width: 201px;
   display: inline-flex;
   justify-content: space-between;
 }
-
-.footer-image {
-  width: 1440px;
-  margin-top: 36px;
+.social-icons:hover{
+  cursor: pointer;
 }
 /*#endregion*/
