@@ -220,7 +220,7 @@
   #offices-title {
     font-size: 32px;
   }
-  #box {
+  #box-o {
     width: 271px;
     height: 199px;
   }
@@ -254,4 +254,66 @@
   }
 }
 
+/*#endregion*/
+
+/*#region "5th row"*/
+@media screen and (max-width: 770px) {
+  #Investors {
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/Mask\ Group.png");
+  }
+
+  #investors-title {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  #investor-boxes {
+    height: 500px;
+  }
+  #logo1 {
+    margin-top: 44px;
+    margin-left: 28px;
+    width: 218px;
+    height: 60px;
+  }
+  #logo2 {
+    width: 160px;
+    height: 39px;
+    margin-top: 54px;
+    margin-left: 56px;
+  }
+
+  #logo3 {
+    width: 172px;
+    height: 86px;
+    margin-top: 25px;
+    margin-left: 51px;
+  }
+
+  #logo4 {
+    width: 187px;
+    height: 86px;
+    margin-top: 28px;
+    margin-left: 44px;
+  }
+  #box {
+    width: 272px;
+    height: 145.79px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #Investors {
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/Mask\ Group.png");
+  }
+  #investors-title {
+    font-size: 28px;
+  }
+  #investor-boxes {
+    height: 820px;
+    margin-left: 8%;
+  }
+  #box {
+    margin-top: 6%;
+  }
+}
 /*#endregion*/
