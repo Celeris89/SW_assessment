@@ -138,10 +138,9 @@ nav {
 /*#endregion*/
 
 /*#region "Second row - Mission"*/
-.mission {
+.Mission {
   width: inherit;
   display: grid;
-  grid-template-rows: 3;
 }
 
 .mission-title {
@@ -155,9 +154,12 @@ nav {
 }
 
 .mission-subtitle {
+  display: flex;
+  width: 78%;
+  flex-wrap: wrap;
   margin-top: 3%;
   font-size: 21px;
-  text-align: center;
+  float: right;
   letter-spacing: 0.01em;
   font-feature-settings: "kern" off;
   color: #537089;
@@ -175,6 +177,7 @@ nav {
 }
 .mission-column {
   flex: 25%;
+  padding: 1%;
   flex-direction: row;
 }
 
@@ -201,16 +204,18 @@ nav {
 }
 
 .mission-bottom-text {
+  grid-row: 3;
+  display: flex;
+  flex-wrap: wrap;
   font-size: 21px;
   font-weight: bold;
   color: #002240;
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
 }
 
 .mission-button {
+  grid-row: 3;
   width: 15%;
   padding: 1.5%;
   margin-left: 40%;
@@ -223,12 +228,6 @@ nav {
   text-align: center;
   color: white;
   margin-bottom: 8%;
-}
-
-@media screen and (max-width: 320px) {
-  #mission-button {
-    width: 130%;
-  }
 }
 
 /*#endregion*/
