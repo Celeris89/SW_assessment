@@ -1,2 +1,2 @@
 # SW_assessment
-An assessment given to me for an job interview process
+An assessment given to me for a job interview process
