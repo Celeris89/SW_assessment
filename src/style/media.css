@@ -29,10 +29,11 @@
     margin-right: 8%;
     line-height: 150%;
   }
-  /* #van-gogh {
-        height: 100%;
-        width: 100%;
-    } */
+  #van-gogh {
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/hero-img.png");
+    width: 630px;
+    height: 300px;
+  }
 }
 @media screen and (max-width: 320px) {
   #container {
@@ -61,12 +62,12 @@
     width: 100%;
     margin-left: 0;
   }
-  /* #van-gogh {
-    background-image: image-set(
-      "C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/hero-img.jpg"
-    ); */
-  /* height: 268px;
-        width: 296px; */
+  #van-gogh {
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/hero-img.png");
+    height: 268px;
+    width: 296px;
+    margin-left: 5%;
+  }
 }
 
 /*#endregion*/
