@@ -303,13 +303,10 @@ nav {
 
 /*#region 4th row, "Offices"*/
 .Offices {
-  /* height: 595px; */
   width: inherit;
-}
-.red {
-  z-index: -1;
-  position: absolute;
-  bottom: -1565px;
+  height: 595px;
+  background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-desktop/tilt.png");
+  background-position: bottom;
 }
 
 .offices-title {
