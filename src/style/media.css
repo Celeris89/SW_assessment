@@ -317,3 +317,51 @@
   }
 }
 /*#endregion*/
+
+/*#region 6th row*/
+@media screen and (max-width: 770px) {
+  #The-future {
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/bg.png");
+    background-position: 50% 50%;
+    background-size: 725px 215px;
+  }
+  #future-title {
+    font-size: 32px;
+  }
+  #future-button1 {
+    width: 146px;
+    height: 43px;
+  }
+  #future-button2 {
+    width: 168px;
+    height: 43px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #The-future {
+    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/Vector\ 19.png");
+    background-size: contain;
+    height: 377px;
+    background-repeat: no-repeat;
+  }
+  #future-title {
+    font-size: 28px;
+    margin-top: 40%;
+  }
+  #future-buttons {
+    flex-direction: column;
+    margin-left: 6%;
+  }
+  #future-button1 {
+    width: 272px;
+    height: 49px;
+    margin-left: 0;
+  }
+  #future-button2 {
+    width: 272px;
+    height: 49px;
+  }
+}
+
+/*#endregion*/

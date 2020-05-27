@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* 
+/*
 .container {
   -ms-transform: scale(1, 1);
   -webkit-transform: scale(1, 1);
@@ -391,7 +391,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-bottom: 10%;
   height: 800px;
 }
 
@@ -426,14 +425,16 @@ nav {
   width: inherit;
 }
 .future-title {
-  font-family: Source Sans Pro;
   font-weight: bold;
   font-size: 48px;
   line-height: 120%;
-  /* or 58px */
   text-align: center;
   color: white;
-  margin-top: 156px;
+  margin-top: 10%;
+}
+.future-buttons{
+  display: flex;
+  flex-direction: row;
 }
 
 .future-button1 {
@@ -441,34 +442,33 @@ nav {
   height: 62px;
   background: #ffffff;
   mix-blend-mode: normal;
+  font-family: Source Sans Pro;
+  font-size: 18px;
   /* Shadow / Button */
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   border: none;
-  font-family: Source Sans Pro;
   font-weight: bold;
-  font-size: 18px;
   line-height: 23px;
   text-align: center;
-  margin-bottom: 160px;
+  margin-bottom: 10%;
   color: #002240;
-  margin-top: 40px;
-  margin-left: 437px;
-  margin-right: 29px;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 3%;
 }
 
 .future-button2 {
+  font-family: Source Sans Pro;
+  font-size: 18px;
   width: 272px;
   height: 62px;
-  right: 430px;
-  margin-top: 40px;
+  margin-top: 5%;
   border: 2px solid #ffffff;
   background: #329dfa;
   border-radius: 5px;
-  font-family: Source Sans Pro;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
   line-height: 23px;
   text-align: center;
   color: #ffffff;
