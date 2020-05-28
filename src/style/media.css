@@ -132,6 +132,7 @@
     float: left;
     margin-bottom: 15%;
   }
+  
   #mission-column {
     margin-bottom: 20%;
     margin-left: 5%;
@@ -216,7 +217,7 @@
 @media screen and (max-width: 770px) {
   #Offices {
     height: 423px;
-    background-image: url("../pictures/pictures-tablet/testi\ bg.png");
+    background-image: url("../pictures/pictures-tablet/testi-bg.png");
   }
 
   #offices-title {
@@ -245,7 +246,7 @@
 @media screen and (max-width: 320px) {
   #Offices {
     height: 583px;
-    background-image: url("../pictures/pictures-phone/Vector\ 19.png");
+    background-image: url("../pictures/pictures-phone/Vector-19.png");
   }
 
   #offices-title {
@@ -261,7 +262,7 @@
 /*#region "5th row"*/
 @media screen and (max-width: 770px) {
   #Investors {
-    background-image: url("../pictures/pictures-tablet/Mask\ Group.png");
+    background-image: url("../pictures/pictures-tablet/Mask-Group.png");
   }
 
   #investors-title {
@@ -306,7 +307,7 @@
 
 @media screen and (max-width: 320px) {
   #Investors {
-    background-image: url("../pictures/pictures-phone/Mask\ Group.png");
+    background-image: url("../pictures/pictures-phone/Mask-Group.png");
   }
   #investors-title {
     font-size: 28px;
@@ -343,7 +344,7 @@
 
 @media screen and (max-width: 320px) {
   #The-future {
-    background-image: url("../pictures/pictures-phone/Vector\ 19.png");
+    background-image: url("../pictures/pictures-phone/Vector-19.png");
     background-size: contain;
     height: 377px;
     background-repeat: no-repeat;
@@ -430,7 +431,7 @@
     margin-left: 8%;
   }
   #column1 {
-    margin-right: 1%;
+    margin-right: 0;
     margin-bottom: 10%;
     width: 49%;
   }
@@ -445,7 +446,8 @@
   #column4 {
     width: 135px;
     height: 307px;
-    margin-left: 8%;
+    margin-left: 6.5%;
+    margin-right: 1.5%;
   }
 
   #why {
@@ -462,7 +464,7 @@
 /*#region "Footer"*/
 @media screen and (max-width: 770px) {
   #footer {
-    background-image: url("../pictures/pictures-tablet/footer\ -\ waves.png");
+    background-image: url("../pictures/pictures-tablet/footer-waves.png");
     height: 231px;
   }
   #social-icons {
@@ -489,7 +491,7 @@
 
 @media screen and (max-width: 320px) {
   #footer {
-    background-image: url("../pictures/pictures-phone/footer\ -\ waves.png");
+    background-image: url("../pictures/pictures-phone/footer-waves.png");
     height: 318px;
   }
   #social {

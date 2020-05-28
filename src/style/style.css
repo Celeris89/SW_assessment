@@ -360,7 +360,7 @@ margin-bottom: 3%;
 /*#region 5th row "Investors*/
 .Investors{
   width: inherit;
-  background-image: url("../pictures/pictures-desktop/Mask\ Group.png");
+  background-image: url("../pictures/pictures-desktop/Mask-Group.png");
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -516,7 +516,7 @@ margin-bottom: 3%;
 footer {
   background-color: #f4f4f4;
   width: inherit;
-  background-image: url("../pictures/pictures-desktop/footer\ -\ waves.png");
+  background-image: url("../pictures/pictures-desktop/footer-waves.png");
   background-repeat: no-repeat;
   background-position: bottom;
   height: 332px;
