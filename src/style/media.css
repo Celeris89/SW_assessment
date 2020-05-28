@@ -30,7 +30,7 @@
     line-height: 150%;
   }
   #van-gogh {
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/hero-img.png");
+    background-image: url("../pictures/pictures-tablet/hero-img.png");
     width: 630px;
     height: 300px;
   }
@@ -63,7 +63,7 @@
     margin-left: 0;
   }
   #van-gogh {
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/hero-img.png");
+    background-image: url("../pictures/pictures-tablet/hero-img.png");
     height: 268px;
     width: 296px;
     margin-left: 5%;
@@ -112,102 +112,103 @@
     width: 20%;
     font-size: 16px;
   }
+}
 
-  @media screen and (max-width: 320px) {
-    #mission-main {
-      flex-direction: column;
-    }
-
-    #mission-title {
-      font-size: 32px;
-      text-align: left;
-      margin-left: 8%;
-      margin-top: 15%;
-    }
-    #mission-subtitle {
-      font-size: 16px;
-      width: 90%;
-      text-align: left;
-      float: left;
-      margin-bottom: 15%;
-    }
-    #mission-column {
-      margin-bottom: 20%;
-      margin-left: 5%;
-    }
-
-    #mission-bottom-text {
-      font-size: 16px;
-      width: 80%;
-      margin-left: 12%;
-      margin-bottom: 5%;
-      text-align: left;
-    }
-
-    #mission-button {
-      width: 85%;
-      margin-left: 8%;
-      padding: 5%;
-      font-size: 16px;
-    }
-  }
-  /*#endregion*/
-
-  /*#region 3rd row*/
-  @media screen and (max-width: 770px) {
-    #timeline-title {
-      font-size: 32px;
-      font-weight: bold;
-    }
-    #date {
-      font-size: 16px;
-      margin-left: 19%;
-    }
-    #timeline-description {
-      font-size: 16px;
-      margin-left: 3%;
-      margin-top: -1%;
-      margin-right: 6%;
-    }
-    #envelope {
-      width: 56px;
-      height: 56px;
-      margin-left: 4%;
-      margin-top: -2%;
-    }
-    #blue-rectangle {
-      width: 630px;
-      height: 732px;
-      margin-left: 9%;
-    }
-    #line {
-      height: 732px;
-      margin-left: 202px;
-    }
+@media screen and (max-width: 320px) {
+  #mission-main {
+    flex-direction: column;
   }
 
-  @media screen and (max-width: 320px) {
-    #timeline-title {
-      font-size: 28px;
-    }
-    #blue-rectangle {
-      width: 320px;
-      height: 915px;
-      margin-left: 0;
-    }
-    #line {
-      height: 915px;
-      margin-left: 110px;
-    }
-    #date {
-      margin-left: 10%;
-      margin-right: 3%;
-    }
-    #timeline-description {
-      margin-right: 5%;
-    }
+  #mission-title {
+    font-size: 32px;
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 15%;
+  }
+  #mission-subtitle {
+    font-size: 16px;
+    width: 90%;
+    text-align: left;
+    float: left;
+    margin-bottom: 15%;
+  }
+  #mission-column {
+    margin-bottom: 20%;
+    margin-left: 5%;
+  }
+
+  #mission-bottom-text {
+    font-size: 16px;
+    width: 80%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+
+  #mission-button {
+    width: 85%;
+    margin-left: 8%;
+    padding: 5%;
+    font-size: 16px;
   }
 }
+/*#endregion*/
+
+/*#region 3rd row*/
+@media screen and (max-width: 770px) {
+  #timeline-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  #date {
+    font-size: 16px;
+    margin-left: 19%;
+  }
+  #timeline-description {
+    font-size: 16px;
+    margin-left: 3%;
+    margin-top: -1%;
+    margin-right: 6%;
+  }
+  #envelope {
+    width: 56px;
+    height: 56px;
+    margin-left: 4%;
+    margin-top: -2%;
+  }
+  #blue-rectangle {
+    width: 630px;
+    height: 732px;
+    margin-left: 9%;
+  }
+  #line {
+    height: 732px;
+    margin-left: 202px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #timeline-title {
+    font-size: 28px;
+  }
+  #blue-rectangle {
+    width: 320px;
+    height: 915px;
+    margin-left: 0;
+  }
+  #line {
+    height: 915px;
+    margin-left: 110px;
+  }
+  #date {
+    margin-left: 10%;
+    margin-right: 3%;
+  }
+  #timeline-description {
+    margin-right: 5%;
+  }
+}
+
 /*#endregion*/
 
 /*#region 4th row*/
@@ -215,7 +216,7 @@
 @media screen and (max-width: 770px) {
   #Offices {
     height: 423px;
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/testi\ bg.png");
+    background-image: url("../pictures/pictures-tablet/testi\ bg.png");
   }
 
   #offices-title {
@@ -244,7 +245,7 @@
 @media screen and (max-width: 320px) {
   #Offices {
     height: 583px;
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/Vector\ 19.png");
+    background-image: url("../pictures/pictures-phone/Vector\ 19.png");
   }
 
   #offices-title {
@@ -260,7 +261,7 @@
 /*#region "5th row"*/
 @media screen and (max-width: 770px) {
   #Investors {
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/Mask\ Group.png");
+    background-image: url("../pictures/pictures-tablet/Mask\ Group.png");
   }
 
   #investors-title {
@@ -305,7 +306,7 @@
 
 @media screen and (max-width: 320px) {
   #Investors {
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/Mask\ Group.png");
+    background-image: url("../pictures/pictures-phone/Mask\ Group.png");
   }
   #investors-title {
     font-size: 28px;
@@ -323,7 +324,7 @@
 /*#region 6th row*/
 @media screen and (max-width: 770px) {
   #The-future {
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/bg.png");
+    background-image: url("../pictures/pictures-tablet/bg.png");
     background-position: 50% 50%;
     background-size: 725px 215px;
   }
@@ -342,7 +343,7 @@
 
 @media screen and (max-width: 320px) {
   #The-future {
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/Vector\ 19.png");
+    background-image: url("../pictures/pictures-phone/Vector\ 19.png");
     background-size: contain;
     height: 377px;
     background-repeat: no-repeat;
@@ -461,7 +462,7 @@
 /*#region "Footer"*/
 @media screen and (max-width: 770px) {
   #footer {
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-tablet/footer\ -\ waves.png");
+    background-image: url("../pictures/pictures-tablet/footer\ -\ waves.png");
     height: 231px;
   }
   #social-icons {
@@ -488,7 +489,7 @@
 
 @media screen and (max-width: 320px) {
   #footer {
-    background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-phone/footer\ -\ waves.png");
+    background-image: url("../pictures/pictures-phone/footer\ -\ waves.png");
     height: 318px;
   }
   #social {

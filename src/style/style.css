@@ -96,11 +96,7 @@ nav {
 }
 /*the picture*/
 .van-gogh {
-  /* max-width: 100%;
-  height: 100%;
-  margin-left: 10%;
-  margin-top: 5%; */
-  background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-desktop/van-gogh.png");
+  background-image: url("../pictures/pictures-desktop/van-gogh.png");
   width: 1219px;
 height: 300px;
 background-size: cover;
@@ -167,7 +163,6 @@ margin-bottom: 3%;
 .mission-main {
   grid-row: 2;
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
   margin-left: 10%;
   margin-bottom: 9%;
@@ -303,7 +298,7 @@ margin-bottom: 3%;
 .Offices {
   width: inherit;
   height: 595px;
-  background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-desktop/tilt.png");
+  background-image: url("../pictures/pictures-desktop/tilt.png");
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -365,10 +360,9 @@ margin-bottom: 3%;
 /*#region 5th row "Investors*/
 .Investors{
   width: inherit;
-  background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-desktop/Mask\ Group.png");
+  background-image: url("../pictures/pictures-desktop/Mask\ Group.png");
   background-repeat: no-repeat;
   background-position: top;
-  /* height: 954px; */
 }
 
 .investors-title {
@@ -376,7 +370,6 @@ margin-bottom: 3%;
   font-weight: bold;
   font-size: 58px;
   line-height: 62px;
-  /* identical to box height, or 107% */
   text-align: center;
   letter-spacing: 0.01em;
   color: #002240;
@@ -416,7 +409,7 @@ margin-bottom: 3%;
 
 /*#region 6th row "The future"*/
 .The-future {
-  background: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-desktop/bg.png");
+  background: url("../pictures/pictures-desktop/bg.png");
   background-repeat: no-repeat;
   background-size: 1313.82px 398.53px;
   background-position: 25% 50%;
@@ -516,9 +509,6 @@ margin-bottom: 3%;
 .column3 {
   margin-right: 8%;
 }
-/* .column4 {
-
-} */
 
 /*#endregion*/
 
@@ -526,7 +516,7 @@ margin-bottom: 3%;
 footer {
   background-color: #f4f4f4;
   width: inherit;
-  background-image: url("C:/Users/sokol/Desktop/Web/my projects/Saleswhale/SW_assessment/src/pictures/pictures-desktop/footer\ -\ waves.png");
+  background-image: url("../pictures/pictures-desktop/footer\ -\ waves.png");
   background-repeat: no-repeat;
   background-position: bottom;
   height: 332px;
